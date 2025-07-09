@@ -40,18 +40,11 @@ Follow the official Docker installation guide: [Docker for Linux](https://docs.d
 ##### Windows (10/11)
 1. **Check system requirements**:[Windows Installation Guide](https://docs.docker.com/desktop/setup/install/windows-install/)
 2. **Verify virtualization is enabled**:
-   <p>
-   <img src="Docs/img_1.png" width="400">
-   </p>
+
    
    **If not enabled, enable it in BIOS**: [Enable Virtualization](https://support.microsoft.com/en-us/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1)
 3. **Enable Hyper-V and WSL**:
-   <p>
-   <img src="Docs/img_2.png" width="400">
-   </p>
-   <p>
-   <img src="Docs/img_3.png" width="400">
-   </p>
+
 4. **Download and install Docker Desktop**: [Download Docker](https://docs.docker.com/desktop/setup/install/windows-install/)
 
 #### Running the Docker Image
