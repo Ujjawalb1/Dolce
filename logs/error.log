@@ -1,0 +1,85 @@
+2025-02-21 12:44:56,478 - ERROR - Check there is an error
+2025-02-21 12:52:15,579 - ERROR - Check there is an error
+2025-02-21 12:52:15,580 - CRITICAL - Critical failure: name 'InvoiceProcessingError' is not defined
+Traceback (most recent call last):
+  File "C:\Users\mokshb_engineosol\Desktop\AmspecConnector\src\invoice_package\main.py", line 8, in process_invoices
+    raise InvoiceProcessingError("Failed to fetch invoices due to API timeout.")
+          ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'InvoiceProcessingError' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\mokshb_engineosol\Desktop\AmspecConnector\src\invoice_package\main.py", line 22, in main
+    process_invoices()
+  File "C:\Users\mokshb_engineosol\Desktop\AmspecConnector\src\invoice_package\main.py", line 9, in process_invoices
+    except InvoiceProcessingError as e:
+           ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'InvoiceProcessingError' is not defined
+2025-02-21 12:52:49,050 - ERROR - Check there is an error
+2025-02-21 12:52:49,052 - ERROR - InvoiceProcessingError: Failed to fetch invoices due to API timeout.
+2025-02-21 13:02:55,954 - ERROR - Check there is an error
+2025-02-21 13:02:55,956 - ERROR - InvoiceProcessingError: Failed to fetch invoices due to API timeout.
+2025-02-21 14:20:01,118 - ERROR - Check there is an error
+2025-02-21 14:23:49,333 - ERROR - Check there is an error
+2025-02-21 14:25:25,647 - ERROR - Check there is an error
+2025-02-21 14:26:11,462 - ERROR - Check there is an error
+2025-02-21 14:30:12,332 - ERROR - Check there is an error
+2025-02-21 14:34:46,741 - ERROR - Check there is an error
+2025-02-21 14:37:52,130 - ERROR - Check there is an error
+2025-02-21 14:38:27,167 - ERROR - Check there is an error
+2025-02-21 14:39:15,412 - ERROR - Check there is an error
+2025-02-21 14:41:01,090 - ERROR - Check there is an error
+2025-02-21 14:41:02,002 - ERROR - InvoiceProcessingError: Failed to fetch invoices due to API timeout.
+2025-02-21 14:41:27,429 - ERROR - Check there is an error
+2025-02-21 14:41:28,366 - ERROR - InvoiceProcessingError: Failed to fetch invoices due to API timeout.
+2025-02-24 14:59:12,671 - ERROR - Invoice API request failed: bad Content-Length
+2025-02-24 16:19:08,933 - ERROR - Login request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /token (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002268A3CC530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2025-02-24 16:20:47,012 - ERROR - Login request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /token (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026A6EB0C650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2025-02-24 16:23:50,952 - ERROR - Login request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /token (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000017E3127C950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2025-02-24 16:32:35,554 - ERROR - Login request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /token (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001A8573DCB60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2025-02-24 17:02:24,423 - ERROR - Login request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /token (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002673324C650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2025-02-24 17:26:32,156 - ERROR - Login request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /token (Caused by ProxyError('Unable to connect to proxy', NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000028016D9C110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')))
+2025-02-25 15:55:19,474 - ERROR - Invoice API request failed: Header part (204) from ('Content-Length', 204) must be of type str or bytes, not <class 'int'>
+2025-02-25 16:07:19,373 - ERROR - Invoice API request failed: Expecting value: line 1 column 1 (char 0)
+2025-03-12 10:40:42,706 - ERROR - Invoice API request failed: ('Connection broken: IncompleteRead(3866 bytes read, 4326 more expected)', IncompleteRead(3866 bytes read, 4326 more expected))
+2025-05-20 15:36:30,562 - ERROR - Invoice API request failed: ('Connection broken: IncompleteRead(31770 bytes read, 998 more expected)', IncompleteRead(31770 bytes read, 998 more expected))
+2025-05-25 19:28:20,638 - ERROR - Invoice API request failed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-05-25 20:32:19,041 - ERROR - Invoice API request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /update-lhdn (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000026AD80E0650>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-25 20:42:26,431 - ERROR - Invoice API request failed: HTTPSConnectionPool(host='api.malaysia.amspec.group', port=443): Max retries exceeded with url: /update-lhdn (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000025DE82018E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-30 16:31:11,780 - ERROR - Invoice API request failed: ('Connection broken: IncompleteRead(16106 bytes read, 16662 more expected)', IncompleteRead(16106 bytes read, 16662 more expected))
+2025-06-12 11:06:53,560 - ERROR - Request failed: Rate limit exceeded
+2025-06-12 11:06:58,043 - ERROR - Request failed: Rate limit exceeded
+2025-06-12 11:07:02,482 - ERROR - Request failed: Rate limit exceeded
+2025-06-12 11:12:38,705 - ERROR - Request failed: Rate limit exceeded
+2025-06-12 11:12:43,000 - ERROR - Request failed: Rate limit exceeded
+2025-06-12 11:12:47,321 - ERROR - Request failed: Rate limit exceeded
+2025-06-12 17:38:04,838 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-12 17:38:11,421 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-12 17:38:15,837 - ERROR - Request failed: 401 Client Error: Unauthorized for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-24 15:29:16,745 - ERROR - Request failed: 406 Client Error: Not Acceptable for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-24 15:29:21,070 - ERROR - Request failed: 406 Client Error: Not Acceptable for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-24 15:29:25,429 - ERROR - Request failed: 406 Client Error: Not Acceptable for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-24 16:20:46,283 - ERROR - Request failed: 504 Server Error: Gateway Timeout for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-25 12:26:33,019 - ERROR - Request failed: 500 Server Error: Internal Server Error for url: https://api-sandbox.my.cleartax.com/einvoice/v1/documents/generate
+2025-06-26 13:08:46,737 - ERROR - Error occurred while posting to ClearTax: name 'post_2_cleartax' is not defined
+2025-06-26 16:20:58,319 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:01,484 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:01,903 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:02,259 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:02,259 - ERROR - Error sending payload to ClearTax: Rate limit exceeded
+2025-06-26 16:21:02,745 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:03,201 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:03,554 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:03,559 - ERROR - Error sending payload to ClearTax: Rate limit exceeded
+2025-06-26 16:21:04,058 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:07,164 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:07,548 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:07,959 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:21:07,959 - ERROR - Error sending payload to ClearTax: Rate limit exceeded
+2025-06-26 16:23:44,359 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:23:55,808 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:24:12,910 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:24:13,439 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:24:13,899 - ERROR - Request failed: Rate limit exceeded
+2025-06-26 16:24:13,901 - ERROR - Error sending payload to ClearTax: Rate limit exceeded

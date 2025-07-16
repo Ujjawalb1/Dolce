@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: amspec_einvoice_package
+Version: 0.1.0
+Summary: package for einvoices
+Author: Moksh Baweja
+Author-email: mokshb@engineosol.com
+Requires-Python: >=3.12
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: httpx
+Requires-Dist: urllib3
+Requires-Dist: tls_client
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
